@@ -44,17 +44,11 @@ const morado = [
     "Dibuja cómo te has sentido estos ultimos dias sin usar palabras.",];
   //--------------------------------------------------
 
-  function PlayAudio() {
-    document.getElementById("BackgroundMusic").play();
-  }
-  
-
   // script.js
 document.addEventListener('DOMContentLoaded', () => {
 
     const cardImages = document.querySelectorAll('.card-img');
     const textDisplay = document.getElementById('text-display');
-    PlayAudio();
 
 
     cardImages.forEach(image => {
