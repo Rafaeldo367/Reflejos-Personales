@@ -45,7 +45,7 @@ const morado = [
   //--------------------------------------------------
 
   function PlayAudio() {
-    document.getElementById("BackgroundMusic").play();
+    document.getElementById("BackgroundMusic").play();|
   }
   
 
