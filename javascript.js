@@ -44,8 +44,8 @@ const morado = [
     "Dibuja cómo te has sentido estos ultimos dias sin usar palabras.",];
   //--------------------------------------------------
 
-  function PlayAudio(){
-    getElementById("BackgroundMusic").play();
+  function PlayAudio() {
+    document.getElementById("BackgroundMusic").play();
   }
   
 
